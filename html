@@ -1,0 +1,68 @@
+<!-- START THIS ACTIVITY IN THE CSS -->
+
+
+
+<!-- WHEN THE EXTERNAL CSS IS COMPLETE, ADD EMBEDDED CSS BELOW -->
+
+<!-- ADD THE STYLE TAG AND ADD THE FOLLOWING STYLES -->
+<style>
+  html {
+    font-family: courier, monospace;
+    background-color: #D7CCC8;
+  }
+  body {
+    background-color: #EF9A9A;
+  }
+  a {
+    color: #FFEBEE;
+  }
+</style>
+<!-- STYLE RULE 1: SELECT THE WHOLE HTML DOCUMENT, DECLARE THAT THE FONT FAMILY IS COURIER WITH A FALLBACK OF MONOSPACE AND DECLARE THE BACKGROUND COLOR IS #D7CCC8 -->
+
+<!-- STYLE RULE 2: SELECT THE BROWSER WINDOW CONTENT, DECLARE THAT THE BACKGROUND COLOR IS  #EF9A9A -->
+
+<!-- STYLE RULE 2: SELECT THE HYPERLINKS, DECLARE THAT THE COLOR IS #FFEBEE -->
+
+
+
+
+
+<!-- YOUR EMBEDDED CSS IS COMPLETE- IT SHOULD MATCH THE EMBEDDED IMAGE IN CANVAS. NOW GO TO THE INTO THE HTML CONTENT BELOW AND FOLLOW THE COMMENTS THERE TO ADD INLINE CSS-->
+
+<header>
+  <h1>Normal Flow</h1>
+</header>
+<!-- INSIDE THE MAIN TAG BELOW, ADD A STYLE ATTRIBUTE TO MAKE ITS BACKGROUND COLOR  #A0A9D6 AND COLOR #212121 -->
+<main style="background-color:#A0A9D6;color:#212121;">
+  <section>
+    <h2>Left to Right, Top to Bottom*</h2>
+    <p>Your HTML document should make sense when read left to right, top to bottom. This is how the browser wil read it. This is how a screen reader will read it. Visually, you can change how it looks on the page with CSS, but the HTML should be in the order that it would make sense to read.</p>
+    <p>Each HTML element is considered to be inline or block. Inline elements occur within block level elements. They do not start on a new line and only take up as much width as necessary (EXAMPLE: <a href="#">this hyperlink</a>) Whereas, block elements occupy 100% of the width available and start on a new line. (EXAMPLE: all containers and headings)</p>
+    <p><em>* True for English; however, it depends on the language</em></p>
+  </section>
+    <section>
+      
+<!-- INSIDE THE SPAN TAG BELOW, ADD STYLE TO MAKE ITS FONT WEIGHT NORMAL --> 
+    <h2>Note the <span style="font-weight:normal;">aside</span></h2>
+    <p>Note that the aside container (in dark grey) is located in the HTML under the main section. This makes sense because the user is here on this webpage for the main content, but might also be interested in the content in the aside. However, visually, we can use CSS to locate this content anywhere on the page.</p>
+  </section>
+</main>
+
+<!-- INSIDE THE ASIDE TAG BELOW, ADD A STYLE ATTRIBUTE TO MAKE ITS BACKGROUND COLOR  #66BB6A AND COLOR #212121--> 
+<aside style="background-color:#66BB6A;color:#212121;">
+    <h2>You Might Also Be Interested In...</h2>
+<!-- INSIDE THE SECTION TAG BELOW, ADD A STYLE ATTRIBUTE TO MAKE ITS BACKGROUND COLOR #E6EE9C --> 
+  <section style="background-color:#E6EE9C;">
+    <h3>Advertisement</h3>
+    <p>Ads are a great example for an aside container.</p>
+  </section>
+  
+<!-- INSIDE THE SECTION TAG BELOW, ADD A STYLE ATTRIBUTE TO MAKE ITS BACKGROUND COLOR #E6EE9C -->   
+  <section style="background-color:#E6EE9C;">
+    <h3>Recommendation</h3>
+    <p>Content that recommends something based on the main content also goes in an aside.</p>
+  </section>
+</aside>
+<footer>
+  <small>Copyright 2022</small>
+</footer>
