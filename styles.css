@@ -1,0 +1,55 @@
+/* THIS IS THE EXTERNAL CSS */
+
+
+/* ADD STYLES AS INDICATED BY THE COMMENTS BELOW */
+    html {
+      background-color:#cccccc;
+      font-family:Georgia, serif;
+    }
+/* ADD THE SELECTOR THAT WILL TARGET ALL THE CONTENT IN THE BROWSER WINDOW*/
+    body  {
+      background-color:#ffffff;
+      margin: 0 auto;
+      padding:25px;
+      max-width:800px;
+      min-width:600px;
+      display: grid;
+      grid-template-areas:
+        "header header"
+        "aside main"
+        "footer footer"
+    }
+    header {
+      grid-area:header;
+    }
+/* ADD A DECLARATION THAT WILL APPLY 25px TO THE OUTER LAYER OF THE CSS BOX MODEL*/
+    main {
+      grid-area:main;
+      padding:10px;
+      margin: 25px;
+    }
+span:before {
+  content:"<"
+}
+span:after {
+  content:">"
+}
+/* ADD A VAULE OF 200PX TO THE WIDTH */
+    aside {
+      background-color:#333333;
+      color:#ffffff;
+      padding:10px;
+      grid-area: aside;
+      width: 200px;
+    }
+aside section {
+      padding:5px;
+      margin: 25px 0;
+}
+    footer {
+      grid-area:footer;
+      display:block;
+      text-align:center;
+    }
+
+/* YOUR EXTERNAL CSS IS COMPLETE- IT SHOULD MATCH THE EXTERNAL IMAGE IN CANVAS. NOW GO TO THE HTML AND FOLLOW THE COMMENTS THERE TO ADD EMBEDDED CSS*/
